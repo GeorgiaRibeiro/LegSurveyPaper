@@ -1,5 +1,5 @@
 # LegSurveyPaper
-Artigo sobre surveys como métodos para capturar as preferências dos legisladores.
+Artigo: Capturando a preferência do legislativo através de surveys: os casos do BLS e MEP Survey
 
 Pergunta de pesquisa: Quais são as potencialidades e limites do uso de surveys como método para estimar preferências dos legisladores?
 
