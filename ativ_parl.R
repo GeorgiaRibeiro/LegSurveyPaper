@@ -15,8 +15,10 @@ library(tidyverse)
 library(ggplot2)
 library(plotly)
 library(plyr)
+library(sqldf)
 
 #Banco e variáveis
+bls = load("BLS8.RData")
 glimpse(bls_2013)
 
 #Filtrar por onda do survey
@@ -34,7 +36,7 @@ bls_2013$tvradio <- as.factor(bls_2013$tvradio)
 bls_2013$discplen <- as.factor(bls_2013$discplen)
 bls_2013$votplen <- as.factor(bls_2013$votplen)
 
-#2a temática. ATIVIDADES PARLAMENTARES
+# ---------- ATIVIDADES PARLAMENTARES -----------#
 #somar respostas
 x1 = data.frame(prop = (prop.table(table(bls_2013$visitas2)))*100)
 x2 = data.frame(prop = (prop.table(table(bls_2013$pedidos2)))*100)
@@ -73,30 +75,28 @@ ativ_parl$prop.Var1 = factor(
   ativ_parl$prop.Var1,levels = c("Não respondeu","Nenhuma importância","2","3","4","Essencial"))
 
 #inverter escala para resolver a loc dos rotulos
-escala_inversa = c("Essencial", "4", "3", "2", "Nenhuma importância", "Não respondeu")
-
-ativ_parl$prop.Var1 = factor(ativ_parl$prop.Var1, escala_inversa)
-
+ativ_parl$prop.Var1 = factor(ativ_parl$prop.Var1, 
+                             c("Essencial", "4", "3", "2", "Nenhuma importância", "Não respondeu"))
+levels(ativ_parl$prop.Var1)
 #reduzir decimais do %
 ativ_parl$prop.Freq = round(ativ_parl$prop.Freq, 2)
 
 #grafico
-g1 = ggplot(ativ_parl, aes(x=atvs,y=prop.Freq,fill=prop.Var1, label=prop.Freq, (x = reorder(prop.Freq, desc(prop.Freq)))))+
+g_ativs = ggplot(ativ_parl, aes(x=atvs,y=prop.Freq,fill=prop.Var1, label=prop.Freq, (x = reorder(prop.Freq, desc(prop.Freq)))))+
   geom_bar(stat = "identity", position = "fill")
 
-g1 +scale_fill_brewer(palette = "Reds",  direction=-1)+
+g_ativs +scale_fill_brewer(palette = "Reds",  direction=-1)+
   theme_minimal()+
   coord_flip()+
   labs(x = "",
-       y = "% de resposta",
+       y = " ",
        fill = "Grau de importância",
-       title = "Importância das seguintes atividades para o futuro eleitoral de um congressista",
+       title = "Importância das atividades para o futuro eleitoral de um congressista",
        subtitle = "Brazilian Legislative Survey, ano 2013",
        caption = "Fonte: Elaboração própria")+
   geom_label(aes(label = prop.Freq),
-                    position = position_fill(vjust = 0.5),
-                    size = 2.75,
-                    colour = 'gray12',
-                    fill = 'white')
-
-#g1 = ggplotly(g1)
+             position = position_fill(vjust = 0.5),
+             size = 2.75,
+             colour = 'gray12',
+             fill = 'white')
+print(g_ativs)
