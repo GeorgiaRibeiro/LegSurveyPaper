@@ -1,7 +1,8 @@
-#-------------------------------------------#
-# Artigo Political Methods Uruguai Nov/2019 #
-#   Georgia Ribeiro Git: @georgiaribeiro    #
-#-------------------------------------------#
+#--------------------------------------------------#
+#     Artigo Political Methods Uruguai Nov/2019    #
+#       Georgia Ribeiro Git: @georgiaribeiro       #
+#                ~ Análise BLS                     # 
+#--------------------------------------------------#
 
 #---------------Resumo: cod variáveis--------------#
 # wave: ano da aplicação do survey
@@ -19,8 +20,6 @@ library(dplyr)
 library(ggplot2)
 library(plotly)
 library(likert)
-
-#pacote para calcular media
 
 #--------- ajustando banco ---------#
 #carregar banco
@@ -152,19 +151,33 @@ bls2013 = mutate(bls2013, desvio_posbls = dfdp)
 bls2013 = mutate(bls2013, moda_posbls = dfmd)
 
 #--------- Posicionamento partidário (ABCP) ---------#
-#carregar banco do survey abcp
-abcp2010 = read.csv("ABCP2010_survey.csv", sep = ";", stringsAsFactors = FALSE)
-abcp2010$media = as.numeric(gsub("\\,", ".", abcp2010$media), digits=3)
-str(abcp2010)
+#carregar banco original
+abcp2010 = read.csv("abcp2010.csv", sep = ";")
+abcp2010 = gather(abcp2010, 'partido', 'escala', 2:28)
+
+  #padronizar estilo do banco
+abcp2010 = abcp2010[19:20]
+abcp2010$survey = 'ABCP 2010'
+
+  #transformar escala 7-pontos para 10-pontos
+abcp2010$escala10 = as.numeric(format((abcp2010$escala * 10/7),
+                  digits = 0, format = "f"))
+  #renomear colunas para combinar bancos
+colnames(abcp2010) = c('partido', 'escala7', 'survey', 'escala')
+
+#carregar banco de estatísticas
+abcp_stat = read.csv("ABCP2010_survey.csv", sep = ";", stringsAsFactors = FALSE)
+abcp_stat$media = as.numeric(gsub("\\,", ".", abcp_stat$media), digits=3)
+str(abcp_stat)
 
 #= = = = = = Comparações = = = = = = #
 
 # 1. Autoposicionamento X Posição demais partidos (BLS)
 #identificar partidos comuns
 part_comuns1 = inner_join(pos_bls, autopos_bls, by = 'partido')
+table(part_comuns1$partido)
 
 #unir bancos
-table(part_comuns1$partido)
 comp1 = rbind(pos_bls, autopos_bls)
 
 #filtrar partidos comuns
@@ -181,9 +194,11 @@ box_comp1 = ggplot(comp1, aes(x = partido, y = escala, fill = survey)) +
                      breaks = seq(0, 10, 1),
                      limits=c(0, 10)) +
   scale_x_discrete(name = "Partido") +
-  ggtitle("Classificação ideológica dos partidos ") +
+  labs( title = "Classificação ideológica dos partidos ",
+        subtitle = "Comparação posicionamento de partidos e autoposicionamento") +
   theme_bw() +
   theme(plot.title = element_text(size = 12, face = "bold", hjust = 1),
+        plot.subtitle = element_text(hjust =1),
         text = element_text(size = 10),
         axis.title = element_text(face="bold"),
         legend.position = "bottom",
@@ -196,79 +211,40 @@ box_comp1 + ggsave("comp_bls.png",
 
 
 # 2. Posição partidos bls X abcp
-#identificar partidos comuns aos surveys
-comp2 = inner_join(bls2013, abcp2010, by="partido")
+#identificar partidos comuns
+part_comuns2 = inner_join(pos_bls, abcp2010, by = 'partido')
+table(part_comuns2$partido)
+
+#alterar df abcp para corresponder [1/2]
+abcp = data.frame(partido = abcp2010$partido,
+                  escala = abcp2010$escala,
+                  survey = abcp2010$survey)
+#unir bancos [2/2]
+comp2 = rbind(pos_bls, abcp)
+
+#filtrar partidos comuns
+comp2 = comp2 %>%
+  filter(partido %in% c("DEM", "PDT","PMDB", "PPS","PR",
+                        "PSB", "PSDB", "PSOL", "PT", "PTB", "PV"))
 View(comp2)
 
-#adaptar df para grafico agrupado (grouped bars)
-survey_bls = comp2[1:6]
-survey_bls = mutate(survey_bls, survey = "BLS 2013")
-survey_bls = mutate(survey_bls,
-                    medias = media_posbls, modas = moda_posbls,
-                    mins = min_posbls, maxs = max_posbls, desvios= desvio_posbls)
-survey_bls[2:6] = NULL
+#boxplot
+box_comp2 = ggplot(comp2, aes(x = partido, y = escala, fill = survey)) +
+  geom_boxplot(alpha=0.7) +
+  scale_y_continuous(name = "Posicionamento na escala ideológica",
+                     breaks = seq(0, 10, 1),
+                     limits=c(0, 10)) +
+  scale_x_discrete(name = "Partido") +
+  labs(title = "Classificação ideológica dos partidos",
+       subtitle = "Comparação entre tipos de surveys") +
+  theme_bw() +
+  theme(plot.title = element_text(size = 12, face = "bold"),
+        text = element_text(size = 10),
+        axis.title = element_text(face="bold"),
+        legend.position = "bottom",
+        axis.text.x=element_text(size = 9 )) +
+  scale_fill_brewer(palette = "Set2")
 
-survey_abcp = data.frame(comp2[1], comp2[7:10], comp2[12])
-survey_abcp = mutate(survey_abcp, survey = "ABCP 2010")
-survey_abcp = mutate(survey_abcp,
-                     medias = media.y, modas = moda.y,
-                     mins = min.y, maxs = max.y, desvios= desvio.y)
-survey_abcp[2:6] = NULL
-
-survey_all = rbind(survey_bls, survey_abcp)
-str(survey_all)
-survey_all$modas = as.numeric(survey_all$modas)
-
-
-#--------- Gráfico Comparação BLS x ABCP (Versão antiga)---------#
-#ordem crescente ABCP 2010 [media e moda]
-survey_all$partido_crescente = reorder(
-  survey_all$partido,
-  X = -(survey_all$medias * (survey_all$survey == "ABCP 2010"))
-)
-
-survey_all$partido_crescente2 = reorder(
-  survey_all$partido,
-  X = -(survey_all$medias * (survey_all$survey == "ABCP 2010"))
-)
-
-#grafico medias
-g_media = ggplot(survey_all, aes(x = partido_crescente, y= medias, fill=survey)) + 
-  geom_bar(position="dodge", stat="identity")+
-  coord_flip() +
- #scale_x_continuous(limits = c(1, 10))+
-  scale_fill_manual(values=c("darksalmon", "darkred"))+
-  theme_minimal()+
-  labs(x = "",
-       y = "Posicionamento ideológico (médias)",
-       fill = "Surveys",
-       title = "Comparação do posicionamento ideológico entre surveys",
-       caption = "Fonte: Elaboração própria") +
-  geom_text(aes(label=format(medias, digits=2)),
-              position = position_dodge(width = 0.9), 
-            hjust = -0.1,
-            size = 2.75,
-            colour = 'gray12')
-
-print(g_moda)
-
-
-#grafico moda
-g_moda = ggplot(survey_all, aes(x = partido_crescente2, y= modas, fill=survey, width=0.8)) + 
-  geom_bar(position="dodge", stat="identity")+
-  coord_flip() +
-  #scale_x_continuous(limits = c(1, 10))+
-  scale_fill_manual(values=c("darksalmon", "darkred"))+
-  theme_minimal()+
-  labs(x = "",
-       y = "Posicionamento ideológico (moda)",
-       fill = "Surveys",
-       title = "Comparação do posicionamento ideológico entre surveys",
-       caption = "Fonte: Elaboração própria") +
-  geom_text(aes(label= modas),
-            position = position_dodge(width = 0.9), 
-            hjust = -0.1,
-            size = 2.75,
-            colour = 'gray12')
-
-print(g_moda)
+box_comp2 + ggsave("comp_bls-abcp.png",
+                   path = "graficos",
+                   width = 7, height = 4, units = "in")

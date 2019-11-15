@@ -1,0 +1,48 @@
+num_questionario;PCO;PSTU;PSOL;PCB;PCdoB;PT;PSB;PDT;PV;PPS;PMDB;PMN;PHS;PSDB;PTdoB;PTB;PTC;PTN;PRB;PSL;PSC;PRTB;PSDC;PR;PRP;PP;DEM;MDB;ARENA;PCB;PTB;PSP;PSD;UDN;Próprio respondente;Critérios;Filiado?;A qual partido?;Simpatia?;Por qual partido?;Cientista Político?;Se outra profissão, qual?;Última formação;AT ou mesa
+1;1;1;1;1;1;2;2;3;4;4;4;;;5;;5;;;;;;;;6;;5;7;3;7;1;3;5;4;7;;"Uma visão histórica (longo prazo) da atuação dos partidos; com ênfase na mais recente.";n;;n;;s;;Dr;Partidos e Eleições
+2;;2;2;4;4;3;;4;5;3;3;;;5;5;6;;;;;6;;6;;5;7;6;4;7;1;5;;5;5;2;Ação política, programa partidário, história política.;n;;n;;s;;Dr;AT
+3;1;1;1;1;1;3;3;3;3;3;3;;;4;;;;;;;;;;;;7;6;3;7;1;3;;4;5;4;Formação de coalizões eleitorais, experiências de planos de governos;n;;s;PT-legislativo e PSDB-executivo;s;;;s
+4;1;1;1;1;1;2;2;3;4;5;4;6;5;5;2;5;;6;4;;5;;6;;;6;7;2;6;2;3;5;5;6;3;Os critérios da literatura de CP em geral;n;;s;PT;s;;Dr CP;Mesa
+5;1;1;1;1;2;2;2;2;3;5;4;;;5;;5;;;4;;;;6;5;;7;7;4;7;1;3;5;4;6;3;;n;;s;PT;s;;Dr. Ciência política;Instituições Políticas
+6;;1;1;1;4;4;4;4;4;4;3;;1;5;;6;;;;;;;;5;;5;6;4;6;2;4;;4;6;5;Os critérios da literatura brasileira e internacional.;n;;s;PSDB;s;;Doutorado;
+7;1;1;1;2;3;3;3;3;3;3;4;5;3;4;6;6;6;6;6;6;6;6;6;3;5;6;6;3;6;2;3;;5;6;4;Padrão;n;;n;;s;;Doutorado;AT03
+8;1;1;1;2;2;3;3;;3;;4;3;3;5;;5;;5;;5;5;5;;5;;6;6;3;6;2;3;4;;6;3;Intervenção do Estado na economia (esq. + intervenção, dir. - internceção). Coligações: se faz < radical, se não faz > radical.;n;;s;;s;;Cientista Político;A03
+9;1;1;2;1;2;3;3;3;4;4;5;3;4;4;;6;6;;5;6;6;7;5;6;6;6;6;4;6;2;3;4;4;6;2;Coalizões de governo, discurso político, alianças eleitorais;n;;s;PT;S;;Doutor;AT03
+10;1;1;1;2;2;2;3;3;4;4;4;;;4;;5;;;5;;;;;5;;6;5;3;6;2;3;5;5;6;2;Posições diante das questões nacionais;s;PT;;;s;;Doutor;Eleições 2010
+11;1;1;1;;7;5;5;5;4;5;5;7;7;3;6;7;7;7;7;7;7;7;7;5;;7;7;6;7;4;7;7;7;7;7;O comportamento dos partidos na arena eleitoral e composição dos ministérios e secretarias dos governos estaduais e municipais;n;;s;PSDB;s;;Doutorado em ciência política;sim
+12;1;1;1;2;2;2;3;3;2;3;4;;;5;;4;;;;;;;;;;6;5;2;6;1;2;4;5;6;3;"Ideologia e relevância do partido. Os ""nanicos"" são não ideológicos.";n;;n;;s;;Doutorado;AT instituições políticas
+13;1;1;1;1;2;4;1;2;3;2;4;7;7;4;7;7;7;7;7;7;7;7;7;7;7;7;7;3;7;1;7;2;7;7;5;;n;;s;PSDB;s;Ciências Sociais;AT;
+14;1;1;1;2;3;3;3;4;4;4;4;;;5;;5;;;6;;;;;5;;6;6;3;5;2;4;;5;6;3;;n;;n;;s;;Dr.;AT
+15;1;1;1;2;1;3;3;3;3;;4;6;;4;;5;;;5;;6;5;;6;6;6;7;4;7;1;3;;5;7;4;Posicionamento político nos legislativos e alinhamento programático dos partidos;n;;s;PSDB;s;;Doutorado;Instituições Políticas
+16;1;1;1;1;2;2;3;3;3;4;4;3;3;4;5;5;4;5;4;5;4;4;4;4;5;5;5;4;5;1;3;5;4;5;3;Atuação política atual.;n;;n;;s;;;AT
+17;1;1;1;1;2;3;3;2;4;4;4;;6;4;;4;6;;6;;6;;;6;;6;6;3;7;1;4;6;5;6;4;Classifiquei primeiro os que eu considero mais à esquerda e mais à direita e depois classifiquei os outros a partir desse parâmetro.;s;PSDB;s;PSDB;s;;Mestrado;AT
+18;1;1;1;1;2;3;4;2;3;;;;;5;1;6;;;;;;;;6;;6;6;;;;;;4;2;3;Memória política.; ;;s;PV;s;;Dr. ;AT06
+19;2;1;2;1;1;3;3;3;3;3;6;4;4;6;2;2;2;3;3;4;3;2;3;6;5;4;7;3;7;1;3;3;3;7;4;;n;;n;;s;;;6
+20;1;2;2;3;3;3;4;5;4;5;4;;;4;3;3;;;;;;;;;;5;6;2;6;3;4;;;5;4;;n;;s;PT;s;;Doutorado;Instituições
+21;1;1;1;1;1;3;2;3;3;5;4;3;6;4;5;5;6;;7;;6;6;6;7;6;7;7;4;7;1;3;5;6;7;3;Ideologia + votações no congresso.; ;;;PF;s;;Dr. ;Mídia e Política
+22;1;1;1;1;2;3;3;3;3;4;4;4;4;4;6;6;5;6;5;6;5;6;6;5;5;6;6;4;6;1;3;6;6;6;3;Programas partidários;n;;s;PT;s;;Doutor;3
+23;1;1;1;1;3;2;2;3;4;6;4;;;5;;6;;;;;;;;5;;6;7;3;7;1;2;;3;6;3;Posições em coalizões de governo, plataforma/propostas políticas;n;;n;;s;;Doutorado;várias
+24;1;1;1;1;1;2;2;3;5;5;4;3;5;5;7;6;5;;4;;5;5;5;4;;5;7;3;7;1;2;;4;7;3;Posicionamento na CD, alianças eleitorais e discursos de lideranças/candidatos;n;;n;;s;;Mestrado;Eleições e representação política
+25;1;1;1;2;3;3;4;4;4;4;4;4;4;5;4;5;4;5;6;5;5;6;6;6;5;6;5;3;6;1;3;;4;6;2;"Votações nominais no congresso, participação na base governista e conhecimento ""jornalístico""";s;PSOL;;;s;;Mestre;AT03
+26;1;1;1;1;1;1;2;2;3;5;4;7;7;6;7;5;7;7;3;7;7;7;7;4;7;7;7;3;7;1;2;3;4;7;2;Os espaciais;n;;n;;s;;Doutor;
+27;1;1;2;2;3;3;3;3;4;4;4;4;5;4;5;5;5;5;5;5;5;5;;6;;6;5;3;6;2;3;5;4;5;3;Uma combinação entre trajetória e atual papel no contexto da competição política.;n;;n;;s;;Doutor em Ciência Política;AT
+28;1;2;3;3;2;4;4;4;4;5;5;;;6;3;4;;;6;;5;;;6;;6;7;2;7;3;4;5;4;6;4;Literatura da ciência política, contexto/conjuntura atual/ experiência local Paraná;n;;;;s;;Graduação;AT03
+29;1;1;1;1;2;;2;3;3;3;4;4;5;4;5;3;5;4;4;4;4;5;5;5;5;4;5;3;7;2;2;4;6;7;3;Comportamento dos partidos frente a reforma do Estado e as políticas sociais;n;;s;PT;s;;Doutor;1A
+30;2;2;2;2;3;3;4;4;4;4;5;4;4;4;5;6;5;5;5;5;5;5;5;6;5;7;6;4;6;2;3;5;5;6;4;Prática parlamentar, programas de governo;n;;;;s;;Mestrado;AT03
+31;1;1;2;1;3;3;4;3;4;5;4;5;5;6;5;5;5;5;5;4;5;5;5;5;5;5;7;4;7;2;3;5;;6;3;Experiência;n;;s;PT;s;;Doutor Ciências Sociais;
+32;1;1;1;1;1;3;3;3;3;5;4;;;5;5;5;;;5;;;;;5;;7;7;4;7;1;3;5;7;6;3;Posicionamento dos atores em relação à compreensão a respeito de qual deve ser o papel do Estado frente ao mercado. Visão a respeito de como lidar com o problema das desigualdades socioeconômicas existentes no país.;n;;s;PT;s;;Mestrado;AT
+33;1;1;2;;3;3;3;3;4;5;4;;;4;;6;;;;;;;;6;;6;6;4;6;1;3;;5;5;;Como o partido está hoje/como se comporta/políticos.;n;;n;;s;;Mestre;03AT
+34;1;1;1;2;2;3;4;4;5;5;4;3;3;5;5;6;4;5;5;4;;;4;;;6;6;5;7;1;4;;5;7;3;Critérios subjetivos de conhecimento do comportamento parlamentar e eleitoral (coligações e propostas);n;;s;PT;s;;Doutorado;AT
+35;1;1;2;1;2;3;2;3;4;2;4;3;2;5;3;2;;3;4;;4;;;5;;6;6;3;7;1;2;;;6;3;Comparando com os partidos que entendo que estão nos extremos;n;;s;PT;s;;Graduação em Ciências sociais;AT B2
+36;;3;2;;2;2;3;5;4;;5;;;5;2;2;;;4;;;;;;;5;5;;;;;;;;3;A argumentação utilizada pelos principais integrantes dos partidos no que diz respeito às propostas apresentadas nas campanhas;n;;n;;n;Estatístico;Mestrado em estatística;AT
+37;1;1;2;1;1;5;2;3;3;3;4;;;5;;2;2;3;;;3;2;3;5;;6;7;4;6;1;2;;;6;5;identificação com partido, minhas próprias convicções acerca de liberdades civis e políticas e sobre o papel que acho que o Estado deve desempenhar.;n;;s;PSDB;s;;Mestre;sim
+38;1;1;1;3;3;3;5;4;4;5;4;;;4;;6;;;;;;;;6;;7;7;2;7;2;3;4;4;7;3;Há estudos que elaboram análise política da ideologia partidária. Há hoje uma dificuldade em definir estes clustres pois alguns micro partidos fazem coligação com partidos de média esquerda e média direita, daí pq não dá para definir no geral a ideologia desses partidos;n;;s;PT;s;Doutorado;Eleições e representação política;
+39;1;1;1;1;2;3;3;3;3;3;4;4;4;4;4;4;4;4;5;4;4;4;4;4;4;6;6;3;6;1;2;3;4;6;;"Trajetória histórica; ""propensão"" a formar coalizões.";n;;s;PSDB;s;M;3;
+40;;;2;2;2;3;3;3;2;3;4;5;;4;5;5;;;5;5;;;;;;6;6;4;6;1;3;5;4;7;3;;n;;s;FA (Uruguai);s;Doutor em Ciência Política;AT03 sessão 2B;
+41;;1;2;2;2;2;4;4;3;4;4;;;5;4;3;;;;2;;;;6;;5;6;3;5;;;;;;;Programática +;n;;n;;s;Ph.D.;Eleições;
+42;1;1;2;1;2;2;3;3;4;4;4;;;4;;5;;;6;;;;;6;;6;6;3;6;1;3;;5;7;3;Alianças partidárias, conteúdo programático, bibliografia nacional;n;;n;;s;Mestre em C. P. ;3;
+43;1;1;1;;2;3;3;3;3;4;4;;;4;;5;;;5;;;6;;5;;6;6;3;6;1;3;;4;6;3;"Reputação; classificação em várias pesquisas";s;Partido Democrata (EUA); ;;s;Ph.D.;3;
+44;3;4;4;;5;4;4;5;3;4;6;;;5;7;7;;;6;7;6;;;6;;6;7;3;6;4;4;5;6;6;4;A defesa de interesses particulares por isso conta contra. Princípio básico: nenhum brasileiro poder ter um benefício a partir do Estado sem crescimento do Estado.;n;;n;;s;;opinião pública;
+45;2;2;3;2;3;3;3;6;3;4;6;3;6;5;6;6;6;6;7;6;6;6;6;6;6;7;6;3;7;2;3;5;6;6;2;Posicionamento e defesas de políticas no congresso;n;;s;PT;s;;Instituições políticas;
+46;1;1;1;1;1;3;3;3;4;2;4;;;4;;6;;;5;;;;;7;;7;7;4;6;1;;;;6;4;O que li na mídia e em trabalhos acadêmicos;n;;s;PSDB;s;Doutorado;Instituições políticas;
+47;1;1;1;1;2;3;3;3;3;3;4;6;;4;6;6;;;6;;;6;6;;;6;5;4;6;1;3;;5;5;;;n;;;;s;;;

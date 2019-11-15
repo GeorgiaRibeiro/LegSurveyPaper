@@ -1,0 +1,1017 @@
+Variable;2015 Q no.;Survey Question;Answer Options;Coding
+;;;;
+b_1;(entered after);Case ID;continuous;
+;;;;
+b_2;(entered after);MEP ID;continuous;
+;;;;
+b_3;(entered after);Survey Year;2000;1
+;;;2006;2
+;;;2011;3
+;;;2015;4
+;;;;
+;;SECTION I. PERSONAL CHARACTERISTICS;;
+;;;;
+q1_1;q1_1;Member State;Belgium;1
+;;In which member state were you elected?;Bulgaria;2
+;;;Czech Republic;3
+;;;Denmark;4
+;;;Germany;5
+;;;Estonia;6
+;;;Ireland;7
+;;;Greece;8
+;;;Spain;9
+;;;France;10
+;;;Italy;11
+;;;Cyprus;12
+;;;Latvia;13
+;;;Lithuania;14
+;;;Luxembourg;15
+;;;Hungary;16
+;;;Malta;17
+;;;Netherlands;18
+;;;Austria;19
+;;;Poland;20
+;;;Portugal;21
+;;;Romania;22
+;;;Slovenia;23
+;;;Slovakia;24
+;;;Finland;25
+;;;Sweden;26
+;;;United Kingdom;27
+;;;Croatia;28
+;;;;
+q1_2;q1_2;EP Group;European People's Party-European Democrats (EPP - ED);1
+;;What is your Party/Political Group in the European Parliament?;Group of the Party of European Socialists;2
+;;;Alliance of Liberals and Democrats for Europe (ALDE);3
+;;;European Greens - European Free Alliance (Greens- EFA);4
+;;;European Conservatives and Reformists (ECR);5
+;;;European United Left/Nordic Green Left (GUE-NGL);6
+;;;Non-attached ;8
+;;;Europe of Freedom and Direct Democracy (EFDD);12
+;;;Europe of Nations and Freedom (ENF);13
+;;;;
+q1_3;(entered after);National Party;(entered separately);Name of national party
+;;;;
+;;;;
+q1_5a;q1_3a;When did you first become an MEP (Month);January;1
+;;;February;2
+;;;March;3
+;;;April;4
+;;;May;5
+;;;June;6
+;;;July;7
+;;;August;8
+;;;September;9
+;;;October;10
+;;;November;11
+;;;December;12
+;;;;
+q1_5b;q1_3b;Date of Election;Year first became MEP entered;
+;;When did you first become an MEP (Year);;
+;;;;
+;;;;
+q1_7;(entered after);Gender;Male;1
+;;What is your gender?;Female;2
+;;;;
+q1_10;(entered after);Survey mode;Online;1
+;;;Face to face;2
+;;;Postal;3
+;;;;
+;;;;
+;;SECTION II. CAREER;;
+;;;;
+;;;;
+q2_6a;q1_4;Past Career;;
+;;Have you previously held any of these postitions;No;0
+;;;Yes;1
+q2_6a_1;q1_4_1;Member of national parliament;;
+q2_6a_2;q1_4_2;Member of national government;;
+q2_6a_3;q1_4_3;European Commissioner;;
+q2_6a_4;q1_4_4;Observer to the European Parliament;;
+q2_6a_5;q1_4_5;European party or political group official;;
+q2_6a_6;q1_4_6;Assistant to an MEP;;
+q2_6a_7;q1_4_7;Official (functionnaire) in the European Parliament;;
+q2_6a_8;q1_4_8;Official in the Commission;;
+q2_6a_9;q1_4_9;Official in the Council;;
+q2_6a_10;q1_4_10;A ’lobbyist’ in Brussels;;
+q2_6a_11;q1_4_11;None of the above;;
+;;;;
+q2_6;q1_5;Have you ever held, or do you currently hold, any of these positions?  (MULTIPLE ANSWERS POSSIBLE) ;;
+;;;;
+;;;currently hold;2
+;;;neither;3
+q2_6_9;q1_5_1;Regional or local elected office;previously held;1
+;;;currently hold;2
+;;;neither;3
+q2_6_11;q1_5_2;President of the European Parliament;previously held;1
+;;;currently hold;2
+;;;neither;3
+q2_6_12;q1_5_3;President of a European political group;previously held;1
+;;;currently hold;2
+;;;neither;3
+q2_6_13;q1_5_4;Leader of a national party delegation in the European Parliament;previously held;1
+;;;currently hold;2
+;;;neither;3
+q2_6_14;q1_5_5;Chair or Vice-Chair of a European Parliament committee;previously held;1
+;;;currently hold;2
+;;;neither;3
+q2_6_15;q1_5_6;Group Coordinator in a European Parliament committee;previously held;1
+;;;currently hold;2
+;;;neither;3
+q2_6_16;q1_5_7;Vice-President or Quaestor of the European Parliament;previously held;1
+;;;currently hold;2
+;;;neither;3
+q2_6_18;q1_5_8;Domestic party official;previously held;1
+;;;currently hold;2
+;;;neither;3
+q2_6_26;q1_5_9;Official in a women's organisation;previously held;1
+;;;currently hold;2
+;;;neither;3
+q2_6_30;q1_5_10;Official in an interest group, trade union or professional association;previously held;1
+;;;currently hold;2
+;;;neither;3
+;;;;
+q2_7;q1_6;Future Career;;
+;;What would you like to be doing 10 years from now? ;;
+;;;;
+q2_7_1;q1_6_1;Member of the European Parliament;Yes;1
+;;;No;0
+q2_7_2;q1_6_2;Chair of an European Parliament committee;Yes;1
+;;;No;0
+q2_7_3;q1_6_3;Chair of an European political group;Yes;1
+;;;No;0
+q2_7_4;q1_6_4;Member of a national parliament;Yes;1
+;;;No;0
+q2_7_5;q1_6_5;Member of a national government;Yes;1
+;;;No;0
+q2_7_6;q1_6_6;European Commissioner;Yes;1
+;;;No;0
+q2_7_7;q1_6_7;Retired from public life;Yes;1
+;;;No;0
+q2_7_10;q1_6_8;Something else, please specify:;Various;text entered
+;;;;
+q2_8;q1_10;Do you intend to stand in the next European election? ;Yes;1
+;;;No;2
+;;;Not decided yet;3
+;;;;
+q2_9_1;q1_11_1;(If answer no to above question): Why do you not intend to stand?;I do not think I will be re-elected;1
+;;;I have decided to pursue a career in national politics;2
+;;;I have decided to pursue a career outside politics;3
+;;;Other;0
+q2_9_2;q1_11_2;;Other: please specify;text entered
+;;;;
+;;SECTION III. POLITICAL ATTITUDES & IDENTITY;;
+;;;;
+q3_1_1;q4_1_1;Left-Right Self-Placement;0 (LEFT) ;1
+;;In political matters, people talk of the 'left' and the 'right'. Where would you place each of the following on a scale from 0 to 10, where o means 'left' and 10 means 'right'? Yourself;1;2
+;;;2;3
+;;;3;4
+;;;4;5
+;;;5;6
+;;;6;7
+;;;7;8
+;;;8;9
+;;;9;10
+;;;10 (RIGHT);11
+;;;;
+q3_1_2;q4_1_2;Left-Right national party placement;0 (LEFT) ;1
+;;In political matters, people talk of the 'left' and the 'right'. Where would you place each of the following on a scale from 0 to 10, where o means 'left' and 10 means 'right'? Your national party;1;2
+;;;2;3
+;;;3;4
+;;;4;5
+;;;5;6
+;;;6;7
+;;;7;8
+;;;8;9
+;;;9;10
+;;;10 (RIGHT);11
+;;;;
+q3_1_3;q4_1_4;Left-Right EP group placement;0 (LEFT) ;1
+;;In political matters, people talk of the 'left' and the 'right'. Where would you place each of the following on a scale from 0 to 10, where o means 'left' and 10 means 'right'? Your European political group;1;2
+;;;2;3
+;;;3;4
+;;;4;5
+;;;5;6
+;;;6;7
+;;;7;8
+;;;8;9
+;;;9;10
+;;;10 (RIGHT);11
+;;;;
+q3_1_4;q4_1_3;Left-Right party's voters placement;;
+;;In political matters, people talk of the 'left' and the 'right'. Where would you place each of the following on a scale from 0 to 10, where o means 'left' and 10 means 'right'? Your party's voters;0 (LEFT);1
+;;;1;2
+;;;2;3
+;;;3;4
+;;;4;5
+;;;5;6
+;;;6;7
+;;;7;8
+;;;8;9
+;;;9;10
+;;;10 (RIGHT);11
+;;;;
+q3_4_1;q4_3_1;Pro/Anti Europe Self-placement;0 (European integration has already gone too far);1
+;;Some say European integration should be pushed further. Others say it already has gone too far. Where would you place each of the following on the question of European integration? Yourself;1;2
+;;;2;3
+;;;3;4
+;;;4;5
+;;;5;6
+;;;6;7
+;;;7;8
+;;;8;9
+;;;9;10
+;;;10 (European integration should be pushed further);11
+;;;;
+q3_4_2;q4_3_2;Pro/Anti Europe national party placement ;0 (European integration has already gone too far);1
+;;Some say European integration should be pushed further. Others say it already has gone too far. Where would you place each of the following on the question of European integration? Your national political party;1;2
+;;;2;3
+;;;3;4
+;;;4;5
+;;;5;6
+;;;6;7
+;;;7;8
+;;;8;9
+;;;9;10
+;;;10 (European integration should be pushed further);11
+;;;;
+q3_4_3;q4_3_4;Pro/Anti Europe EP group placement;0 (European integration has already gone too far);1
+;;Some say European integration should be pushed further. Others say it already has gone too far. Where would you place each of the following on the question of European integration? Your European political group;1;2
+;;;2;3
+;;;3;4
+;;;4;5
+;;;5;6
+;;;6;7
+;;;7;8
+;;;8;9
+;;;9;10
+;;;10 (European integration should be pushed further);11
+q3_4_4;q4_3_3;Pro/Anti Europe voters' placement ;;
+;;Some say European integration should be pushed further. Others say it already has gone too far. Where would you place each of the following on the question of European integration? Your party's voters;0 (European integration has already gone too far) ;1
+;;;1;2
+;;;2;3
+;;;3;4
+;;;4;5
+;;;5;6
+;;;6;7
+;;;6;8
+;;;6;9
+;;;9;10
+;;;10: European integration should be pushed further;11
+;;;;
+q3_5;q4_2;Socio-economic attitudes;;
+q3_5_1;q4_2_1;Opinion on income inequality;Agree Strongly;1
+;;Greater effort should be made to reduce inequality of income;Agree;2
+;;;Neither agree nor disagree;3
+;;;Disagree;4
+;;;Disagree Strongly;5
+;;;;
+q3_5_2;q4_2_3;Opinion on crime and punishment;Agree Strongly;1
+;;People who break the law should be given stiffer sentences;Agree;2
+;;;Neither agree nor disagree;3
+;;;Disagree;4
+;;;Disagree Strongly;5
+;;;;
+q3_5_3;q4_2_4;Opinion on government involvement in economy;Agree Strongly;1
+;;Governments should abstain from intervening in the economy;Agree;2
+;;;Neither agree nor disagree;3
+;;;Disagree;4
+;;;Disagree Strongly;5
+;;;;
+q3_5_7;q4_2_5;Opinion on Immigration;Agree Strongly;1
+;;Governments should adopt a restrictive policy on immigration;Agree;2
+;;;Neither agree nor disagree;3
+;;;Disagree;4
+;;;Disagree Strongly;5
+;;;;
+q3_5_9;q4_2_2;Opinion on same sex marriage;Agree Strongly;1
+;;Same sex marriage should be legalized;Agree;2
+;;;Neither agree nor disagree;3
+;;;Disagree;4
+;;;Disagree Strongly;5
+;;;;
+;;SECTION IV. ATTIDUES ON EU POLICIES & REFORMS;;
+;;;;
+q4_1;q4_6;Attitudes Towards EU Regulatory Policies;;
+;;Do you think there should be more or less EU-wide regulation in the following areas? ;;
+;;;;
+q4_1_2;q4_6_1;Opinion on Labour rights regulation;A lot more;1
+;;Labour rights (e.g. Opinion on working time rules);A little more;2
+;;;About the same;3
+;;;A little less;4
+;;;A lot less;5
+;;;;
+q4_1_3;q4_6_2;Opinion on Discrimination;A lot more;1
+;;Discriminiation based on gender, race, religion, age, disability, and sexual orientation;A little more;2
+;;;About the same;3
+;;;A little less;4
+;;;A lot less;5
+;;;;
+q4_1_6;q4_6_3;Opinion on Environmental regulation;A lot more;1
+;;Environmental protection standards;A little more;2
+;;;About the same;3
+;;;A little less;4
+;;;A lot less;5
+;;;;
+q4_1_12;q4_6_4;Opinion on financial services regulation;A lot more;1
+;;Financial services;A little more;2
+;;;About the same;3
+;;;A little less;4
+;;;A lot less;5
+;;;;
+q4_3_4;q4_7_1;Opinion on Restrictions on government deficits;Agree Strongly;1
+;;Governments should be allowed to run deficits of more than 3% of GDP;Agree;2
+;;;Neither agree nor disagree;3
+;;;Disagree;4
+;;;Disagree Strongly;5
+;;;;
+q4_3_7;q4_7_2;Opinion on Fiscal Compact;Agree Strongly;1
+;;The Treaty on Stability, Coordination and Governance is sufficient for ensuring budgetary discipline in the member states;Agree;2
+;;;Neither agree nor disagree;3
+;;;Disagree;4
+;;;Disagree Strongly;5
+;;;;
+;;;;
+q4_5;q4_8;Attitudes Towards EU Justice & Home Affairs Policies;;
+;;To what extent do you agree or disagree with the following statements about EU Justice and Home Affairs policies? ;;
+;;;;
+q4_5_2;q4_8_1;Opinion on Common EU economic migration policy;Agree Strongly;1
+;;There should be a common EU policy on economic migrants from third countries;Agree;2
+;;;Neither agree nor disagree;3
+;;;Disagree;4
+;;;Disagree Strongly;5
+;;;;
+q4_5_6;q4_8_4;Opinion on EU-wide Arrest Warrants;Agree Strongly;1
+;;For serious crimes, the police in each member state should be able to issue arrest warrants across EU;Agree;2
+;;;Neither agree nor disagree;3
+;;;Disagree;4
+;;;Disagree Strongly;5
+;;;;
+q4_5_11;q4_8_2;Opinion on free movement;;
+;;Individual member states should be allowed to place restrictions on the free movement of people into their country. ;Agree Strongly;1
+;;;Agree;2
+;;;Neither agree nor disagree;3
+;;;Disagree;4
+;;;Disagree Strongly;5
+;;;;
+q4_5_12;q4_8_3;Opinion on migrant access to benefits;Agree Strongly;1
+;;EU migrants should be granted the same rights and access to public services as citizens of the recipient member state.  ;Agree;2
+;;;Neither agree nor disagree;3
+;;;Disagree;4
+;;;Disagree Strongly;5
+;;;;
+q4_6;q4_10; Attitudes Towards EU Common Foreign and Security Policies;;
+;;To what extent do you agree or disagree with the following statements about EU foreign and defence policies?;;
+;;;;
+q4_6_2;q4_10_1;Opinion on Counterweight to US;Agree Strongly;1
+;;EU foreign policy should develop as a counterweight to the United States;Agree;2
+;;;Neither agree nor disagree;3
+;;;Disagree;4
+;;;Disagree Strongly;5
+;;;;
+q4_6_5;q4_10_5;Opinion on Russia;Agree Strongly;1
+;;2006: The EU should develop closer political ties with Russia;Agree;2
+;;2010 & 2015: The EU should develop closer political ties with Russia despite concerns about democracy  and human rights in that country;Neither agree nor disagree;3
+;;;Disagree;4
+;;;Disagree Strongly;5
+;;;;
+q4_6_14;q4_10_2;Opinion on benefits of Transatlantic Trade and Investment Partnership (TTIP);;
+;;The Transatlantic Trade and Investment Partnership (TTIP) will be beneficial for my country. ;Agree Strongly;1
+;;;Agree;2
+;;;Neither agree nor disagree;3
+;;;Disagree;4
+;;;Disagree Strongly;5
+;;;;
+q4_6_15;q4_10_3;Opinion on healthcare in TTIP;Agree Strongly;1
+;;The TTIP should exclude healthcare. ;Agree;2
+;;;Neither agree nor disagree;3
+;;;Disagree;4
+;;;Disagree Strongly;5
+;;;;
+q4_6_16;q4_10_4;Opinion on TTIP and food safety;Agree Strongly;1
+;;The TTIP should exclude food safety regulation;Agree;2
+;;;Neither agree nor disagree;3
+;;;Disagree;4
+;;;Disagree Strongly;5
+;;;;
+q5_1_8;q4_11_1;Opinion on EP right of Legislative Initiative;Agree Strongly;1
+;;The European Parliament should have the right to initiate legislation;Agree;2
+;;;Neither agree nor disagree;3
+;;;Disagree;4
+;;;Disagree Strongly;5
+;;;;
+q5_1_9;q4_11_2;Opinion on EP Legislative Powers;Agree Strongly;1
+;;The European Parliament should have equal legislative power with;Agree;2
+;;the Council in ALL areas of EU policy-making;Neither agree nor disagree;3
+;;;Disagree;4
+;;;Disagree Strongly;5
+;;;;
+q5_1_13;q4_11_3;Opinion on EP power to sack individual Commissioners;Agree Strongly;1
+;;The EP should be able to remove individual Commissioners from office;Agree;2
+;;;Neither agree nor disagree;3
+;;;Disagree;4
+;;;Disagree Strongly;5
+;;;;
+q5_1_15;q4_11_4;Opinion on EP right to be in Brussels;Agree Strongly;1
+;;The EP should be allowed to hold all its plenary sessions in Brussels;Agree;2
+;;;Neither agree nor disagree;3
+;;;Disagree;4
+;;;Disagree Strongly;5
+;;;;
+q5_1_16;q4_11_5;Opinion on European party groups nominating Commission Presidency candidates;Agree Strongly;1
+;;European political groups should nominate candidates for the Commission Presidency in future European elections. ;Agree;2
+;;;Neither agree nor disagree;3
+;;;Disagree;4
+;;;Disagree Strongly;5
+;;;;
+q5_2;q4_4;Opinion on enhanced cooperation;1 Less use of enhanced cooperataion;1
+;;The Treaty on European Union allows groups of member states to establish enhanced cooperation between themselves without the involvement of all 28 member states. Do you think that there should be more or less use of enhanced cooperation?;2;2
+;;;3;3
+;;;4;4
+;;;5 More use of enhanced cooperation;5
+;;;;
+q5_3;q4_5;Opinion on responsibility for economic situation;Answer options for all of these different actors were the same, as follows;
+;;How much responsibility do you think these different institutions have in the current economic situation in your country?  ;0 (no responsibility);1
+q5_3_1;q4_5_1;The national government;1;2
+q5_3_2;q4_5_2;The European Union;2;3
+q5_3_3;q4_5_3;The IMF;3;4
+q5_3_4;q4_5_4;The banks;4;5
+q5_3_5;q4_5_5;Foreign investors/speculators;5;6
+q5_3_6;q4_5_6;The European currency - EURO;6;7
+q5_3_7;q4_5_7;The people/everybody in the country;7;8
+;;;8;9
+;;;9;10
+;;;10 (Full responsibility);11
+;;;;
+q5_4;q4_12;Opinion on UK renegotiation of relationship with EU;1. Yes, the UK should remain in the EU but without renegotiation;1
+;;The government of the United Kingdom (UK) has expressed an interest in re-negotiating the UK’s relationship with the European Union and then holding a referendum on whether the UK should remain in the EU. Are you in favour of continued UK membership in the EU?  (Please choose one option from the list);2. Yes the UK should remain in the EU but with a broad renegotiation of the treaties. on a range of issues including the UK's concerns ;2
+;;;3. Yes the UK should remain in the EU but there should be a UK-specific renegotiation of the treaties.;3
+;;;4. No, the UK should leave the EU;4
+;;;;
+;;;;
+;;;;
+;;SECTION V. REPRESENTATION;9;
+;;;;
+q6_1;q2_1;Role of MEPs;;
+;;When thinking about your work as an MEP, how important are the following aspects of your work? ;;
+;;;;
+q6_1_1;q2_1_1;Role is Legislating;1 (Of little importance);1
+;;Working on legislation;2;2
+;;;3;3
+;;;4;4
+;;;5 (Of great importance);5
+;;;;
+q6_1_2;q2_1_2;Role is Parliamentary oversight;1 (Of little importance);1
+;;Parliamentary oversight;2;2
+;;;3;3
+;;;4;4
+;;;5 (Of great importance);5
+;;;;
+q6_1_3;q2_1_3;Role is Social Group Representation;1 (Of little importance);1
+;;Articulation of important societal needs and interests;2;2
+;;;3;3
+;;;4;4
+;;;5 (Of great importance);5
+;;;;
+q6_1_4;q2_1_4;Role is Common EU strategies;1 (Of little importance);1
+;;Developing common strategies for EU policies;2;2
+;;;3;3
+;;;4;4
+;;;5 (Of great importance);5
+;;;;
+q6_1_5;q2_1_5;Role is Social Mediation;1 (Of little importance);1
+;;Mediation between different interests in society;2;2
+;;;3;3
+;;;4;4
+;;;5 (Of great importance);5
+;;;;
+q6_1_6;q2_1_6;Role is Individual Representation;1 (Of little importance);1
+;;Representation of individual interests of individual citizens;2;2
+;;;3;3
+;;;4;4
+;;;5 (Of great importance);5
+;;;;
+q6_2;q2_2;Group Representation;;
+;;How important is it to you to represent the following groups of people in the European Parliament? ;;
+;;;;
+q6_2_1;q2_2_1;Represent Europe-Wide Interest;1 (Of little importance);1
+;;All people in Europe;2;2
+;;;3;3
+;;;4;4
+;;;5 (Of great importance);5
+;;;;
+q6_2_2;q2_2_2;Represent National Interest;1 (Of little importance);1
+;;All people in my member state;2;2
+;;;3;3
+;;;4;4
+;;;5 (Of great importance);5
+;;;;
+q6_2_3;q2_2_3;Represent National Party Voters' Interests;1 (Of little importance);1
+;;All the people who voted for my party;2;2
+;;;3;3
+;;;4;4
+;;;5 (Of great importance);5
+;;;;
+q6_2_4;q2_2_4;Represent Constituency Interest;1 (Of little importance);1
+;;All the people in my constituency/region;2;2
+;;;3;3
+;;;4;4
+;;;5 (Of great importance);5
+;;;;
+q6_2_5;q2_2_5;Represent National Party Interest;1 (Of little importance);1
+;;My national party;2;2
+;;;3;3
+;;;4;4
+;;;5 (Of great importance);5
+;;;;
+q6_2_6;q2_2_6;Represent EP Party Interest;1 (Of little importance);1
+;;My EP party group;2;2
+;;;3;3
+;;;4;4
+;;;5 (Of great importance);5
+;;;;
+q6_2_7;q2_2_7;Represent Women;1 (Of little importance);1
+;;Women;2;2
+;;;3;3
+;;;4;4
+;;;5 (Of great importance);5
+;;;;
+q6_5;q2_5;Travel to constituency;Never;1
+;;How often do you travel to your constituency?;Every 2 months;2
+;;;Once a month;3
+;;;Once a week;4
+;;;More than once a week;5
+;;;;
+;;;;
+;;SECTION VI. CONTACTS;;
+q7_2;q2_3;Political Contacts;;
+;;How frequently are you in contact with the following groups, people or institutions? ;;
+;;;;
+q7_2_1;q2_3_1;Contacts with Citizens;At least once a week;1
+;;Ordinary citizens;At least once a month;2
+;;;At least every three months;3
+;;;At least once a  year;4
+;;;Less often;5
+;;;No contact;6
+;;;;
+q7_2_2;q2_3_2;Contacts with Interest Groups;At least once a week;1
+;;Organised groups;At least once a month;2
+;;;At least every three months;3
+;;;At least once a  year;4
+;;;Less often;5
+;;;No contact;6
+;;;;
+q7_2_3;q2_3_3;Contacts with Lobbyists;At least once a week;1
+;;Lobbyists;At least once a month;2
+;;;At least every three months;3
+;;;At least once a  year;4
+;;;Less often;5
+;;;No contact;6
+;;;;
+q7_2_4;q2_3_4;Contacts with Journalists;At least once a week;1
+;;Journalists;At least once a month;2
+;;;At least every three months;3
+;;;At least once a  year;4
+;;;Less often;5
+;;;No contact;6
+;;;;
+q7_2_5;q2_3_5;Contacts with EP Group Leadership;At least once a week;1
+;;Leaders of my European political group;At least once a month;2
+;;;At least every three months;3
+;;;At least once a  year;4
+;;;Less often;5
+;;;No contact;6
+;;;;
+q7_2_6;q2_3_6;Contacts with MEPs from other Home Parties;At least once a week;1
+;;MEPs of other parties from my member state;At least once a month;2
+;;;At least every three months;3
+;;;At least once a  year;4
+;;;Less often;5
+;;;No contact;6
+;;;;
+q7_2_7;q2_3_7;Contacts with Commission staff;At least once a week;1
+;;Officials in the Commission;At least once a month;2
+;;;At least every three months;3
+;;;At least once a  year;4
+;;;Less often;5
+;;;No contact;6
+;;;;
+q7_2_8;q2_3_8;Contacts with Commissioners;At least once a week;1
+;;European Commissioners;At least once a month;2
+;;;At least every three months;3
+;;;At least once a  year;4
+;;;Less often;5
+;;;No contact;6
+;;;;
+q7_2_9;q2_3_14;Contacts with Council staff;At least once a week;1
+;;Officials in the Council of the European Union;At least once a month;2
+;;;At least every three months;3
+;;;At least once a  year;4
+;;;Less often;5
+;;;No contact;6
+;;;;
+q7_2_15;q2_3_9;Contacts with National Party;At least once a week;1
+;;Members of my national party ;At least once a month;2
+;;;At least every three months;3
+;;;At least once a  year;4
+;;;Less often;5
+;;;No contact;6
+;;;;
+q7_2_16;q2_3_10;Contacts with National Party Leadership;At least once a week;1
+;;Members of my national party executive;At least once a month;2
+;;;At least every three months;3
+;;;At least once a  year;4
+;;;Less often;5
+;;;No contact;6
+;;;;
+q7_2_17;q2_3_11;Contacts with Home MPs;At least once a week;1
+;;MPs from my national parliament;At least once a month;2
+;;;At least every three months;3
+;;;At least once a  year;4
+;;;Less often;5
+;;;No contact;6
+;;;;
+q7_2_18;q2_3_12;Contacts with Home Ministers;At least once a week;1
+;;Ministers from my national government;At least once a month;2
+;;;At least every three months;3
+;;;At least once a  year;4
+;;;Less often;5
+;;;No contact;6
+;;;;
+q7_2_19;q2_3_13;Contacts with Home Civil Servants;At least once a week;1
+;;Civil servants/public officials from my national government;At least once a month;2
+;;;At least every three months;3
+;;;At least once a  year;4
+;;;Less often;5
+;;;No contact;6
+;;;;
+q7_3;q2_4;Interest Group Contacts;;
+;;How frequently are you in contact with the following interest groups?;;
+;;;;
+;;;;
+q7_3_1;q2_4_1;Contacts with consumer groups;At least once a week;1
+;;Consumer associations;At least once a month;2
+;;;At least every three months;3
+;;;At least once a  year;4
+;;;Less often;5
+;;;No contact;6
+;;;;
+q7_3_2;q2_4_2;Contacts with environmental groups;At least once a week;1
+;;Environmental organisations;At least once a month;2
+;;;At least every three months;3
+;;;At least once a  year;4
+;;;Less often;5
+;;;No contact;6
+;;;;
+q7_3_3;q2_4_3;Contacts with Women's organisations;At least once a week;1
+;;Women's organisations;At least once a month;2
+;;;At least every three months;3
+;;;At least once a  year;4
+;;;Less often;5
+;;;No contact;6
+;;;;
+q7_3_4;q2_4_4;Contacts with trade unions;At least once a week;1
+;;Trade unions;At least once a month;2
+;;;At least every three months;3
+;;;At least once a  year;4
+;;;Less often;5
+;;;No contact;6
+;;;;
+q7_3_5;q2_4_5;Contacts with professional associations;At least once a week;1
+;;Professional associations;At least once a month;2
+;;;At least every three months;3
+;;;At least once a  year;4
+;;;Less often;5
+;;;No contact;6
+;;;;
+q7_3_6;q2_4_6;Contacts with agricultural/fisheries groups;At least once a week;1
+;;Agriculture/fisheries organisations;At least once a month;2
+;;;At least every three months;3
+;;;At least once a  year;4
+;;;Less often;5
+;;;No contact;6
+;;;;
+q7_3_7;q2_4_7;Contacts with industry organisations;At least once a week;1
+;;Industry organisations;At least once a month;2
+;;;At least every three months;3
+;;;At least once a  year;4
+;;;Less often;5
+;;;No contact;6
+;;;;
+q7_3_8;q2_4_8;Contacts with transport groups;At least once a week;1
+;;Transport associations;At least once a month;2
+;;;At least every three months;3
+;;;At least once a  year;4
+;;;Less often;5
+;;;No contact;6
+;;;;
+q7_3_9;q2_4_9;Contacts with trade/commerce associations;At least once a week;1
+;;Trade and commerce associations;At least once a month;2
+;;;At least every three months;3
+;;;At least once a  year;4
+;;;Less often;5
+;;;No contact;6
+;;;;
+q7_3_10;q2_4_10;Contacts with banking/insurance groups;At least once a week;1
+;;Banking and insurance associations;At least once a month;2
+;;;At least every three months;3
+;;;At least once a  year;4
+;;;Less often;5
+;;;No contact;6
+;;;;
+q7_3_11;q2_4_12;Contacts with other groups;2006: Yes;1
+;;Other, please specify:;2006: No;2
+;;;2010 & 2015 At least once a week;1
+;;;2010 & 2015 At least once a month;2
+;;;2010 & 2015 At least every three months;3
+;;;2010 & 2015 At least once a  year;4
+;;;2010 & 2015 Less often;5
+;;;2010 & 2015 No contact;6
+;;;;
+q7_3_11_1;q2_4_13;Specify;text entered;
+;;;;
+q7_3_12;q2_4_11;Contacts with human rights groups;At least once a week;1
+;;Human rights organisations;At least once a month;2
+;;;At least every three months;3
+;;;At least once a  year;4
+;;;Less often;5
+;;;No contact;6
+;;;;
+;;SECTION VII. LEGISLATIVE BEHAVIOUR;;
+;;;;
+q8_1;q3_1;Voting Instructions;;
+;;How often do you receive recommendations on which way to vote from the following parties or groups? ;;
+;;;;
+q8_1_1;q3_1_1;Voting Instructions from National Party;1 (Never);1
+;;You national party leadership;2;2
+;;;3;3
+;;;4;4
+;;;5 (On almost every vote);5
+;;;;
+q8_1_2;q3_1_2;Voting Instructions from European political group;1 (Never);1
+;;Your European political group leadership;2;2
+;;;3;3
+;;;4;4
+;;;5 (On almost every vote);5
+;;;;
+q8_1_3;q3_1_3;Voting Instructions from National Delegation;1 (Never);1
+;;Your national party delegation of MEPs;2;2
+;;;3;3
+;;;4;4
+;;;5 (On almost every vote);5
+;;;;
+q8_1_4;q3_1_4;Voting Instructions from EP Committee;1 (Never);1
+;;Your EP committee leadership;2;2
+;;;3;3
+;;;4;4
+;;;5 (On almost every vote);5
+;;;;
+q8_1_5;q3_1_5;Voting Instructions from EU Commission;1 (Never);1
+;;The European Commission;2;2
+;;;3;3
+;;;4;4
+;;;5 (On almost every vote);5
+;;;;
+q8_1_6;q3_1_6;Voting Instructions from National Government;1 (Never);1
+;;Your national government;2;2
+;;;3;3
+;;;4;4
+;;;5 (On almost every vote);5
+;;;;
+q8_1_7;q3_1_7;Voting Instructions from interest groups;1 (Never);1
+;;Interest groups;2;2
+;;;3;3
+;;;4;4
+;;;5 (On almost every vote);5
+;;;;
+q8_1_9;q3_1_8;Voting Instructions from  Voters in Constituency;1 (Never);1
+;;Voters in your constituency;2;2
+;;;3;3
+;;;4;4
+;;;5 (On almost every vote);5
+;;;;
+q8_4c;q3_2;Relationship with European political group;;
+;;To what extent do you agree with the following statements?;;
+;;;;
+q8_4c_1;q3_2_1;EP group members should not speak openly;Agree completely ;1
+;;Members of a European political group should not speak openly ;Agree ;2
+;;about discussions within the European political group;Neither agree nor disagree ;3
+;;;Disagree;4
+;;;Disagree completely;5
+;;;;
+q8_4c_2;q3_2_2;Should vote with EP group, even if disagree;Agree completely ;1
+;;If the opinions of the European political group appear in conflict ;Agree ;2
+;;with one's own opinions, it is correct to vote with the European political group;Neither agree nor disagree ;3
+;;;Disagree;4
+;;;Disagree completely;5
+;;;;
+q8_4c_3;q3_2_3;Should vote against EP group, if pressure form constituents;Agree completely ;1
+;;If a member of parliament is under pressure from constituents;Agree ;2
+;;it is correct that s/he votes against the expressed will of the European political group;Neither agree nor disagree ;3
+;;;Disagree;4
+;;;Disagree completely;5
+;;;;
+q8_4c_4;q3_2_4;No initiatives with authority of EP group;Agree completely ;1
+;;No political initiatives should be taken without the ;Agree ;2
+;;authorisation of the European political group;Neither agree nor disagree ;3
+;;;Disagree;4
+;;;Disagree completely;5
+;;;;
+q8_4c_5;q3_2_5;Important to be united;Agree completely ;1
+;;For our European political group it is very important to appear united;Agree ;2
+;;;Neither agree nor disagree ;3
+;;;Disagree;4
+;;;Disagree completely;5
+;;;;
+q8_4c_6;q3_2_6;EP group leadership should enforce unity;Agree completely ;1
+;;The leader of a European political group should, as far as possible, ensure the unity of ;Agree ;2
+;;European political group. In doing so the use of far reaching means, such as the;Neither agree nor disagree ;3
+;;denial of particular parliamentary posts (e.g. seats on committees), is legitimate;Disagree;4
+;;;Disagree completely;5
+;;;;
+q8_6;q3_7;Committee Choices;;
+;;Here are a list of reasons why MEPs choose which EP committee to join. How important were each of these reasons in deciding which committee to join after the 1999 European elections?;;
+;;;;
+q8_6_1;q3_7_1;Committee Choice for Personal Interests;1 - Extremely Important;1
+;;The committee concerns my personal interests;2;2
+;;;3;3
+;;;4;4
+;;;5 - Not at all Important;5
+;;;;
+q8_6_2;q3_7_2;Committee Choice for Constituency Interests;1 - Extremely Important;1
+;;The committee is important to my voters;2;2
+;;;3;3
+;;;4;4
+;;;5 - Not at all Important;5
+;;;;
+q8_6_3;q3_7_3;Committee Choice because of professional expertise;1 - Extremely Important;1
+;;The committee tackles topics in which I have professional expertise;2;2
+;;;3;3
+;;;4;4
+;;;5 - Not at all Important;5
+;;;;
+q8_6_4;q3_7_4;Committee Choice Because of Cmte Importance;1 - Extremely Important;1
+;;The committee covers important issues;2;2
+;;;3;3
+;;;4;4
+;;;5 - Not at all Important;5
+;;;;
+q8_6_5;q3_7_5;Committee Choice because of EP Group Decision;1 - Extremely Important;1
+;;I was asked to serve on the committee by my EP party group;2;2
+;;;3;3
+;;;4;4
+;;;5 - Not at all Important;5
+;;;;
+q8_6_6;q3_7_6;Committee Choice because of National Party Decision;1 - Extremely Important;1
+;;I was asked to serve on the committee by my national party;2;2
+;;;3;3
+;;;4;4
+;;;5 - Not at all Important;5
+;;;;
+q8_6_7;q3_7_7;Committee Choice because already a cmte member;1 - Extremely Important;1
+;;I was a member of this committee in the last European Parliament;2;2
+;;;3;3
+;;;4;4
+;;;5 - Not at all Important;5
+;;;;
+q8_8;q3_5;Favoured committee;;
+;;After the 2014 European election, which committee did you most want to sit on?;;
+;;Foreign Affairs;1;0
+;;Development;2;1
+;;International Trade;3;0
+;;Budgets;4;1
+;;Budgetary Control;5;0
+;;Economic and Monetary Affairs;6;1
+;;Employment and Social Affairs;7;0
+;;Environment, Public Health and Food Safety;8;1
+;;Industry, Research and Energy;9;0
+;;Internal Market and Consumer Protection;10;1
+;;Transport and Tourism;11;0
+;;Regional Development;12;1
+;;Agriculture and Rural Development;13;0
+;;Fisheries;14;1
+;;Culture and Education;15;0
+;;Legal Affairs;16;1
+;;Civil Liberties, Justice and Home Affairs;17;0
+;;Constitutional Affairs;18;1
+;;Women's Rights and Gender Equality;19;0
+;;Petitions;20;1
+;;;;1
+q8_9;q3_6;Committee positions;;
+;;Which committee(s) do you currently sit on as a full member?;;
+q8_9_1;q3_6_1;Foreign Affairs;Not selected;0
+;;;Selected;1
+q8_9_2;q3_6_2;Development;Not selected;0
+;;;Selected;1
+q8_9_3;q3_6_3;International Trade;Not selected;0
+;;;Selected;1
+q8_9_4;q3_6_4;Budgets;Not selected;0
+;;;Selected;1
+q8_9_5;q3_6_5;Budgetary Control;Not selected;0
+;;;Selected;1
+q8_9_6;q3_6_6;Economic and Monetary Affairs;Not selected;0
+;;;Selected;1
+q8_9_7;q3_6_7;Employment and Social Affairs;Not selected;0
+;;;Selected;1
+q8_9_8;q3_6_8;Environment, Public Health and Food Safety;Not selected;0
+;;;Selected;1
+q8_9_9;q3_6_9;Industry, Research and Energy;Not selected;0
+;;;Selected;1
+q8_9_10;q3_6_10;Internal Market and Consumer Protection;Not selected;0
+;;;Selected;1
+q8_9_11;q3_6_11;Transport and Tourism;Not selected;0
+;;;Selected;1
+q8_9_12;q3_6_12;Regional Development;Not selected;0
+;;;Selected;1
+q8_9_13;q3_6_13;Agriculture and Rural Development;Not selected;0
+;;;Selected;1
+q8_9_14;q3_6_14;Fisheries;Not selected;0
+;;;Selected;1
+q8_9_15;q3_6_15;Culture and Education;Not selected;0
+;;;Selected;1
+q8_9_16;q3_6_16;Legal Affairs;Not selected;0
+;;;Selected;1
+q8_9_17;q3_6_17;Civil Liberties, Justice and Home Affairs;Not selected;0
+;;;Selected;1
+q8_9_18;q3_6_18;Constitutional Affairs;Not selected;0
+;;;Selected;1
+q8_9_19;q3_6_19;Women's Rights and Gender Equality;Not selected;0
+;;;Selected;1
+q8_9_20;q3_6_20;Petitions;Not selected;0
+;;;Selected;1
+;;;;
+q8_10;q3_3;Actions when making decisions on legislation;(these options apply to all three parts of the question);
+;;How much do you agree or disagree with the following statements? When making decisions on legislation, MEPs should:;Strongly agree;1
+;;;Agree;2
+;;;Neither agree nor disagree;3
+;;;Disagree;4
+;;;Strongly disagree;5
+;;;;
+q8_10_1;q3_3_1;Defend their national position;; 
+;;;; 
+q8_10_2;q3_3_2;Look for a common policy in collaboration with MEPs from other member states and party groups;; 
+;;;; 
+;;;;
+q8_10_3;q3_3_3;Agree compromises on a legislative proposal in return for other MEPs' support on other legislative proposals;;
+;;;;
+q8_11;q3_4;Effects of positive and negative responses on MEPs' decision-making;;
+;;When making decisions in the European Parliament, are MEPs affected by any of the following? [please tick any that apply];;
+q8_11_1;q3_4_1;Praise;No;0
+;;;Yes;1
+q8_11_2;q3_4_2;Acceptance;No;0
+;;;Yes;1
+q8_11_3;q3_4_3;Recognition;No;0
+;;;Yes;1
+q8_11_4;q3_4_4;Isolation;No;0
+;;;Yes;1
+q8_11_5;q3_4_5;Loss of support;No;0
+;;;Yes;1
+q8_11_6;q3_4_6;Criticism;No;0
+;;;Yes;1
+;;;;
+;;SECTION VIII. CAMPAIGNING BEHAVIOUR;;
+;;;;
+q9_2a;q1_7;Vote for individual candidates not just parties (e.g. open lists);;
+;;To what extent do you agree or disagree with the following statement: In European Parliament elections, citizens should be able to vote for individual candidates rather than just for political parties (for example in an ‘open’ or ‘semi-open’ list form of proportional representation, as opposed to a ‘closed’ list form of PR)? ;Strongly disagree;1
+;;;Disagree;2
+;;;Neither agree nor disagree;3
+;;;Agree;4
+;;;Strongly agree;5
+;;;;
+q9_6a;q1_8;Were any of the following activities part of your 2014 campaign? If yes, how important were they? ;;
+;;;Not used;1
+;;;Of little importance;2
+;;;Somewhat important;3
+;;;Very important;4
+;;;Most important;5
+q9_6a_1;q1_8_1;Door-knocking, canvassing ;;
+q9_6a_2;q1_8_2;Distributing party campaign material;;
+q9_6a_3;q1_8_3;Calling up voters on the phone ;;
+q9_6a_4;q1_8_4;Visiting businesses and social organisations ;;
+q9_6a_5;q1_8_5;Meetings with party elites/members and/or party groups ;;
+q9_6a_6;q1_8_6;Media activities (interviews, press releases) ;;
+q9_6a_7;q1_8_7;Public speeches and rallies   ;;
+q9_6a_8;q1_8_8;Personal campaign posters;;
+q9_6a_9;q1_8_9;Direct mailing;;
+q9_6a_10;q1_8_10;Personal newspaper ads  ;;
+q9_6a_11;q1_8_11;Personal spots in radio, TV, movie houses;;
+q9_6a_12;q1_8_12;Personal flyers or other campaign material (give-aways);;
+q9_6a_13;q1_8_13;Personal website;;
+q9_6a_14;q1_8_14;Mailing list to inform supporters and voters about my campaign;;
+q9_6a_15;q1_8_15;Own blog;;
+q9_6a_16;q1_8_16;SMS messages;;
+q9_6a_17;q1_8_17;Facebook or Twitter;;
+q9_6a_18;q1_8_18;Other;;
+q9_6a_19;q1_8_19;If ‘other’, please specify below: ;Open-ended text answer;
+;;;;
+q9_10a;q1_9;Primary aim of the campaign-party or candidate?;0 (to attract as much attention as possible for me as a candidate);0
+;;What was the primary aim of your campaign? ;1;1
+;;Where would you place yourself on this scale? ;2;2
+;;;3;3
+;;;4;4
+;;;5;5
+;;;6;6
+;;;7;7
+;;;8;8
+;;;9;9
+;;;10 (to attract as much attention as possible for my party);10
