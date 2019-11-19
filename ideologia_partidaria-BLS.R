@@ -196,14 +196,7 @@ box_comp1 = ggplot(comp1, aes(x = partido, y = escala, fill = survey)) +
   scale_x_discrete(name = "Partido") +
   labs( title = "Classificação ideológica dos partidos ",
         subtitle = "Comparação posicionamento de partidos e autoposicionamento") +
-  theme_bw() +
-  theme(plot.title = element_text(size = 12, face = "bold", hjust = 1),
-        plot.subtitle = element_text(hjust =1),
-        text = element_text(size = 10),
-        axis.title = element_text(face="bold"),
-        legend.position = "bottom",
-        axis.text.x=element_text(size = 9 )) +
-  scale_fill_brewer(palette = "Set2")
+  themeu()
 
 box_comp1 + ggsave("comp_bls.png",
                 path = "graficos",
@@ -237,13 +230,7 @@ box_comp2 = ggplot(comp2, aes(x = partido, y = escala, fill = survey)) +
   scale_x_discrete(name = "Partido") +
   labs(title = "Classificação ideológica dos partidos",
        subtitle = "Comparação entre tipos de surveys") +
-  theme_bw() +
-  theme(plot.title = element_text(size = 12, face = "bold"),
-        text = element_text(size = 10),
-        axis.title = element_text(face="bold"),
-        legend.position = "bottom",
-        axis.text.x=element_text(size = 9 )) +
-  scale_fill_brewer(palette = "Set2")
+  themeu()
 
 box_comp2 + ggsave("comp_bls-abcp.png",
                    path = "graficos",
